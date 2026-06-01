@@ -66,17 +66,6 @@ Turns out that's basically what programming is.
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Nokz22&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nokz22&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-
-</div>
-
----
-
 ## 🧠 The background that makes me slightly different
 
 Before code, I spent years in **logistics** (ADR goods, international clients, compliance deadlines) and before that, **running a bar** (stock, team, margin, chaos at 2am).  
