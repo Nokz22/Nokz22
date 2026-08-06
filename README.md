@@ -4,90 +4,77 @@
 
 # Nuno Ferreira
 
-**Software Engineer** · Porto, Portugal · Open to Remote
+**Backend Engineer · Java / Spring Boot** · Porto, Portugal · Open to remote
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nuno-ferreira-a02552203/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:nunopferreira01@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Nokz22)
-
-![Profile views](https://komarev.com/ghpvc/?username=Nokz22&style=flat-square&color=blue)
+[LinkedIn](https://www.linkedin.com/in/nuno-ferreira-a02552203/) ·
+[Email](mailto:nunopferreira01@gmail.com) ·
+[Portfolio](https://portfolio-orcin-omega-47.vercel.app/)
 
 </div>
 
 ---
 
-I came to software engineering the weird way — psychology degree, logistics ops, bartending.  
-Somewhere in between, I started breaking things on purpose just to understand how they worked.
+I build backend systems where architecture is treated as part of the work, not a
+luxury: module boundaries enforced by tooling, decisions written down before the
+code, and a test suite that acts as a release gate. My path into engineering ran
+through psychology, regulated logistics and hardware support — which is where the
+requirements-gathering and communication side comes from.
 
-Turns out that's basically what programming is.
+Currently building a multi-tenant B2B SaaS in Java 21 / Spring Boot 3 at Enso Digital.
 
 > *Building things end-to-end. Not because I have to — because half-finished things bother me.*
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-<div align="center">
-
-**Languages & Frameworks**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Platforms & Tools**
-
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![WooCommerce](https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring_MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-**APIs & Concepts**
-
-![REST API](https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
-![MVC](https://img.shields.io/badge/MVC_Architecture-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
-![OOP](https://img.shields.io/badge/OOP-0078D4?style=for-the-badge&logo=azuredevops&logoColor=white)
-
-</div>
+- **Languages** — Java 17/21, TypeScript, JavaScript, SQL, PHP, Python
+- **Backend** — Spring Boot 3, Spring Modulith, Spring Security / JWT, JPA / Hibernate, Flyway, REST API design
+- **Data** — PostgreSQL, MySQL, object storage (MinIO / S3)
+- **Testing & quality** — JUnit 5, Mockito, Testcontainers, ArchUnit, JaCoCo
+- **Tooling** — Maven, Docker, GitHub Actions, Git
+- **Frontend** — React, Next.js, TypeScript, Tailwind
+- **Architecture** — Clean Architecture, modular monolith, multi-tenancy, ADRs, C4, SOLID
 
 ---
 
-## 🚀 Things I've Shipped
+## Projects
 
-| Project | Stack | Highlights |
-|---|---|---|
-| 🃏 **[Blackjack Card Counting Trainer](https://github.com/Nokz22/blackjack-trainer)** | Java · JavaFX · Vanilla JS | Desktop app + [live browser version](https://blackjack-trainer-ruby.vercel.app) · CI/CD · 10 difficulty levels |
-| 🤖 **[GLaDINATOR](https://github.com/Nokz22/GLaDINATOR)** | Spring MVC · OpenAI API · Python | AI character guesser · REST backend · GLaDOS TTS engine · SPA frontend |
-| 🎵 **[Segue o Ritmo](https://github.com/Nokz22/segue-o-ritmo)** | Java 17 · Swing · Maven | Simon Says for elderly users · full-screen kiosk · real accessibility constraints |
-| ♠️ **[Sueca Game](https://github.com/Nokz22/SuecaGame)** | Java · Swing | Portuguese card game · LAN multiplayer · touchscreen support |
+| Project | Stack | What it demonstrates |
+| --- | --- | --- |
+| **[Lumen](https://github.com/Nokz22/Lumen)** | Java 17 · Spring Boot 3 · React/TS | Clean Architecture with layer dependencies enforced by ArchUnit in CI; Testcontainers integration tests against real infrastructure; coverage tracked with JaCoCo; ADR + C4 documentation. Privacy and clinical-safety constraints designed into the data model from the start. |
+| **[AETHER](https://github.com/Nokz22/Aether)** | Java 21 · Spring Modulith · Next.js | Modular monorepo with boundaries enforced by Spring Modulith. The AI layer is an orchestration concern that may only consume the public API of each module — it never reaches into another module's internals. Bilingual (pt-PT / en) by design. |
+| **[GLaDINATOR](https://github.com/Nokz22/GLaDINATOR)** | Spring MVC · REST · OpenAI API | Binary question-narrowing engine behind a REST API, with a themed conversational frontend. Four-person final project delivered to a fixed deadline with a shared Git workflow. |
+| **[Sueca](https://github.com/Nokz22/SuecaGame)** | Java · MVC · sockets | Traditional Portuguese card game with LAN multiplayer over sockets and game rules fully decoupled from the UI through MVC. |
+| **[Segue o Ritmo](https://github.com/Nokz22/segue-o-ritmo)** | Java 17 · Swing | Accessibility-driven memory game for elderly and cognitively impaired users: large touch targets, kiosk mode, pt-PT interface. |
 
----
-
-## 🧠 The background that makes me slightly different
-
-Before code, I spent years in **logistics** (ADR goods, international clients, compliance deadlines) and before that, **running a bar** (stock, team, margin, chaos at 2am).  
-
-That stuff doesn't show up in a tech stack. It shows up in how I think about problems, how I talk to clients, and how I handle things going wrong at the worst possible moment.
-
-**Psychology degree** too — which mostly taught me that people are more interesting and more irrational than any system I'll ever build.
+Two flagship systems are not public: **ObraPro**, the multi-tenant construction SaaS
+I'm currently building at Enso Digital, and a crypto analytics / backtesting platform.
+Both are private, but I'm glad to walk through the architecture, the code and the
+decisions behind them in an interview. A blackjack card-counting trainer and Java
+fundamentals exercises are also on the profile.
 
 ---
 
-## 📍 Currently
+## Background
 
-- 🔨 Working as a **WordPress Developer** while pushing Java and full-stack skills forward
-- 🌍 Looking for **remote opportunities** where I can actually contribute, not just fill a seat
-- 🗣️ **Portuguese** native · **English** C1 Advanced · **Spanish** advanced
+Before engineering I spent years in logistics operations — ADR (hazardous) goods,
+international clients, compliance deadlines where data accuracy was a legal
+requirement — and before that running a bar: stock, team, margin, and things going
+wrong at the worst possible moment. A psychology degree sits under all of it, which
+mostly taught me that the people using a system are more interesting and less
+predictable than the system itself.
+
+That background doesn't show up in a tech stack. It shows up in how I approach
+requirements, how I talk to the people a system is for, and how I handle things
+breaking under pressure.
 
 ---
 
 <div align="center">
 
-*Porto, Portugal · Available for remote · Let's build something.*
+**Portuguese** (native) · **English** (C1) · **Spanish** (advanced)
 
-[![LinkedIn](https://img.shields.io/badge/Let's_connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nuno-ferreira-a02552203/)
+*Porto, Portugal · Open to remote*
 
 </div>
